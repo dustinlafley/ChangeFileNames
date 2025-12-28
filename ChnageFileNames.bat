@@ -5,5 +5,6 @@ set /p DRY="Dry run? (y/n): "
 set DRY_ARG=
 if /I "%DRY%"=="y" set DRY_ARG=--dry-run
 
-py "C:\Users\chase\Documents\Python Projects\ChangeFileNames.py" --source "%SRC%" --dest "%DST%" --ext ".iso"  %DRY_ARG%
+py "C:\Users\chase\Documents\Python Projects\ChangeFileNames\ChangeFileNames.py" --source "%SRC%" --dest "%DST%" --ext ".iso"  %DRY_ARG%
 pause
+
